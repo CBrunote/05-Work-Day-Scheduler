@@ -1,5 +1,5 @@
 // Variable/function with moment.js to grab and display the current date to display on the planner
-var currentDay = moment().format("MMMM Do, YYYY");
+var currentDay = moment().format("MMMM Do YYYY, h:mm a");
 $("#currentDay").text(currentDay);
 
 // function to color code the hours based on past, present, future
